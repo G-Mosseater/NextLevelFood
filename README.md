@@ -18,7 +18,9 @@ A Nextjs app demonstrating features of the App Router Nextjs patterns.
 - Mock database implemented with **better-sqlite**  
 - **Local image storage** (requires external DB for deployment: Firebase, Supabase, AWS, etc.)
 
-> Images are stored locally and will not load in deployed environments without an external database.
+> Images are stored locally and will not load in deployed environments without an external database
+> Certain dynamic routes will **not work** in deployment
+> Submitting forms will **not work** in deployment because the **Better SQLite database is only functional in development mode**
 
 
 
